@@ -8,4 +8,3 @@ include "./libs/defoult.php";
 include "variables.php";
 
 include "./skins/defoult/" . $_GET['page'] . ".tpl";
-echo "hello world";
