@@ -44,3 +44,22 @@ footer {
     font-weight: bold;
     padding: 40px 0 0 0;
 }
+.reg-header {
+    text-align: center;
+    margin:  40px;
+}
+.reg-header h5 {
+    color: red;
+}
+.form-group {
+    width: 500px;
+    margin: 0 auto 0 auto;
+}
+.reg-btn {
+    padding: 7px;
+    width: 200px;
+    margin: 20px auto 20px auto;
+}
+.reg-btn-align {
+    text-align: center;
+}
