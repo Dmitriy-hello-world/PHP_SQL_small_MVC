@@ -1,0 +1,46 @@
+body {
+    background-image: url(/img/bg.jpg);
+}
+.conteiner {
+    margin: 0 auto 0 auto;
+}
+.header {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.header span {
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration: underline;    
+}
+#hr-botton-header {
+    margin: 0;
+    border: 1px solid rgb(26, 151, 186);
+}
+.about h5 {
+    margin: 0 0 20px 20px;
+}
+.about {
+    width: 900px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 50px auto 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+.module p {
+    text-align: center;
+}
+.module ul {
+    width: 200px;
+    margin: 0 auto 30px auto;
+}
+footer {
+    background-color:  grey;
+    height: 100px;
+    text-align: center;
+    font-weight: bold;
+    padding: 40px 0 0 0;
+}
