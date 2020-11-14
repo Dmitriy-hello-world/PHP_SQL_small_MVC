@@ -23,11 +23,13 @@
   <p>Доступные модули:</p>
   <ul>
     <?php
-      foreach ($modules as $key => $val) {
+    foreach ($modules as $val) {
+      if ($val != "errors" && $val != "adminPanel") {
         echo "<li>";
         echo $val;
         echo "</li>";
-      }
-      ?>
+      } 
+    }
+    ?>
   </ul>
 </div>
