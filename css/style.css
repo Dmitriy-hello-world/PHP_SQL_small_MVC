@@ -75,3 +75,33 @@ footer {
     text-align: center;
     margin: 255px;
 }
+.game-user-area {
+    margin: 20px;
+    width: 400px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.game-pc-area {
+    margin: 20px;
+    width: 400px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.game-kick-panel {
+    margin: 20px;
+    width: 400px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.game-main {
+    margin: 205px auto 205px auto;
+    width: 1350px;
+}
+.game-input {
+    margin: 5px 0 5px 160px;
+}
+#game-kick-button {
+    margin: 10px 0 10px 135px;
+}
