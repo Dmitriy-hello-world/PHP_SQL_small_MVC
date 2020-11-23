@@ -18,7 +18,7 @@ $modules = array("main", "wars", "program", "registration", "errors", "adminPane
 if (!isset($_GET['module'])) {
     $_GET['module'] = 'main';
 } elseif (!in_array($_GET['module'], $modules)) {
-    header("location: /modules/defoult/errors/404.php");
+    header("location: /?module=errors&page=404");
     exit();
 }
 
