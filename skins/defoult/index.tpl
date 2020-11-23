@@ -20,7 +20,7 @@
         <a class="nav-link" href="/?module=wars&page=main">Битва алкоголиков</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Программа</a>
+        <a class="nav-link" href="/?module=program&page=main">Программа</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/?module=registration&page=main">Регистрация</a>

@@ -44,3 +44,16 @@ if (isset($_POST['adminExitButton'])) {
     setcookie("AdminKey", "", time() - 3600, "/");
     header("location: /?module=main&page=main");
 }
+
+//set variables for wars
+if (!isset($_SESSION['comp'])) {
+    $_SESSION['comp'] = 20;
+}
+if (!isset($_SESSION['user'])) {
+    $_SESSION['user'] = 15;
+}
+
+
+if (!isset($_GET['link'])) {
+    $_GET['link'] = ".";
+}

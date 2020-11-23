@@ -1,0 +1,1 @@
+<h2 class="endGame"><?php echo $endGame;?></h2>
