@@ -130,3 +130,15 @@ footer {
 .endGame a {
     text-decoration: none;
 }
+.regOK {
+    text-align: center;
+    margin: 285px auto 285px auto;
+    color: rgb(15, 123, 135);
+}
+.form-group {
+    width: 600px;
+}
+.com-add-button {
+    margin: 10px 5px 5px 0;
+    padding: 5px;
+}

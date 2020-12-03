@@ -32,4 +32,8 @@
     }
     ?>
   </ul>
+  <div class="ADDcomments">
+    <?php include "./modules/comments/add.php";
+    include "./skins/defoult/comments/add.tpl"?>
+  </div>
 </div>
