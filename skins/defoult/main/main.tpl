@@ -32,8 +32,11 @@
     }
     ?>
   </ul>
+  <div class="ALLcomments">
+    <?php include "./skins/defoult/comments/getALL.tpl";
+    ?>
+  </div>
   <div class="ADDcomments">
-    <?php include "./modules/comments/add.php";
-    include "./skins/defoult/comments/add.tpl"?>
+    <?php include "./skins/defoult/comments/add.tpl"?>
   </div>
 </div>

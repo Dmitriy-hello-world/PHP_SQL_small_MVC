@@ -12,4 +12,4 @@
             placeholder="Напишите что-нибудь.." name="addComments"></textarea>
         <input type="submit" class="btn btn-primary com-add-button" value="Отправить комментарий" name="addSub">
     </div>
-</form>>
+</form>
