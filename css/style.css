@@ -157,3 +157,14 @@ footer {
     margin: 30px auto 20px auto;
     border-top: 1px solid rgb(29, 113, 198);
 }
+.form-into {
+    margin: 170px auto 100px auto;
+}
+.inputErrors {
+    text-align: center;
+    margin: 290px auto 290px auto;
+}
+.inputIsset {
+    text-align: center;
+    margin: 290px auto 290px auto;
+}

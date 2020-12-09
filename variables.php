@@ -12,7 +12,7 @@ if (date('Y') == YEARSSTART) {
 }
 
 //modules in my site
-$modules = array("main", "wars", "program", "registration", "errors", "adminPanel");
+$modules = array("main", "wars", "program", "registration", "errors", "adminPanel", "cab");
 
 //module = main or go to 404
 if (!isset($_GET['module'])) {
@@ -56,4 +56,15 @@ if (!isset($_SESSION['user'])) {
 
 if (!isset($_GET['link'])) {
     $_GET['link'] = ".";
+}
+
+//check userKey from cookie + set $userKey
+if (isset($_COOKIE['userKey'])) {
+    $selectID = "
+    SELECT * FROM `users`
+    WHERE `id` = '" . $_COOKIE['userKey'] . "'
+    ";
+    $result = mysqli_query($bd_link, $selectID) or exit('Ошибка тут: ' . mysqli_error($bd_link));
+    $row = mysqli_fetch_assoc($result);
+    $userKey = $_COOKIE['userKey'];
 }

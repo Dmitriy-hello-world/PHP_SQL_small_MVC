@@ -22,14 +22,22 @@
       <li class="nav-item">
         <a class="nav-link" href="/?module=program&page=main">Программа</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/?module=registration&page=main">Регистрация</a>
-      </li>
       <?php if ($adminPanel == 1) {
       ?><li class="nav-item">
         <a class="nav-link" href="/?module=adminPanel&page=main">Кабинет админа</a>
       </li><?php
             } ?>
+      <li class="nav-item">
+        <a class="nav-link" href="/?module=registration&page=main">Регистрация</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/?module=cab&page=main">Войти</a>
+      </li>
+      <?php if(isset($userKey)) {
+        echo "<li class=\"nav-item\">
+          <a class=\"nav-link\" href=\"/?module=cab&page=exit\">Выйти</a>
+        </li>";
+      }?>
     </ul>
   </header>
   <hr id="hr-botton-header">
