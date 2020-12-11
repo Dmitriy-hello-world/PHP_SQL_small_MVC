@@ -168,3 +168,27 @@ footer {
     text-align: center;
     margin: 290px auto 290px auto;
 }
+.margin-left {
+    margin-left: auto;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.first-nav {
+    width: 10rem;
+}
+.main-nav {
+    display: flex;
+}
+.cab-nav {
+    display: flex;
+}
+.dropdown-menu {
+    left: -100%;
+}
+#dropdownMenuButton {
+    margin: 2px;
+    background-color: rgb(26, 151, 186);
+    border-color: white;
+}
