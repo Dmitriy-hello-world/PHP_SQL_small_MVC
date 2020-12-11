@@ -12,7 +12,7 @@ if (date('Y') == YEARSSTART) {
 }
 
 //modules in my site
-$modules = array("main", "wars", "program", "registration", "errors", "adminPanel", "cab");
+$modules = array("main", "wars", "program", "registration", "errors", "adminPanel", "cab", "comments");
 
 //module = main or go to 404
 if (!isset($_GET['module'])) {
@@ -22,7 +22,7 @@ if (!isset($_GET['module'])) {
     exit();
 }
 
-//get ADMIN KEY
+//set ADMIN KEY
 if (isset($_POST['email'], $_POST['login'], $_POST['password'])) {
     if ($_POST['email'] == ADMINEMAIL && $_POST['login'] == ADMINLOGIN && $_POST['password'] == ADMINPASSWORD) {
         if ($_SERVER['REMOTE_ADDR'] == ADMINID) {
