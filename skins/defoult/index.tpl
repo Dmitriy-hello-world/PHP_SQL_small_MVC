@@ -39,8 +39,8 @@
             aria-haspopup="true" aria-expanded="false">
             <?php echo htmlspecialchars($row['login']); ?>
           </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="/?module=cab&page=main">Мой кабинет</a>
+          <div class="dropdown-menu" id="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="/?module=cab&page=main">Мой список задач</a>
             <a class="dropdown-item" href="/?module=cab&page=exit">Выйти</a>
           </div>
         </div>
@@ -55,7 +55,9 @@
     <?php include "./skins/defoult/" . $_GET['module'] . "/" . $_GET['page'] . ".tpl"; ?>
   </main>
   <footer>
-    <p> Сайт создан мной! Копирайт: <?php echo $copyrite; ?></p>
+    <p> Сайт создан мной! Копирайт:
+      <?php echo $copyrite; ?>
+    </p>
   </footer>
 </body>
 

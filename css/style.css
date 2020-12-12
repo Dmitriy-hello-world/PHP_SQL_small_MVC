@@ -184,8 +184,8 @@ footer {
 .cab-nav {
     display: flex;
 }
-.dropdown-menu {
-    left: -100%;
+#dropdown-menu {
+    left: -135%;
 }
 #dropdownMenuButton {
     margin: 2px;
