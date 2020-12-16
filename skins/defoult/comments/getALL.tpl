@@ -16,7 +16,7 @@ while ($nextCom = mysqli_fetch_assoc($res)) { ?>
             }    ?>
             </span>
         </h5>
-        <?php echo nl2br(htmlspecialchars($nextCom['text'])); ?>
+        <?php echo "<div class=\"correct\">".nl2br(htmlspecialchars($nextCom['text']))."</div>"; ?>
     </div>
 </div>
 <?php } ?>

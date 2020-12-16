@@ -40,7 +40,7 @@
             <?php echo htmlspecialchars($row['login']); ?>
           </button>
           <div class="dropdown-menu" id="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="/?module=cab&page=main">Мой список задач</a>
+            <a class="dropdown-item" href="/?module=todo&page=main">Мой список задач</a>
             <a class="dropdown-item" href="/?module=cab&page=exit">Выйти</a>
           </div>
         </div>

@@ -7,11 +7,13 @@
     } else { ?>
 <div class="reg-header">
     <h2>Войдите в этот прекрасный сайт</h2>
-    <h5><?php if (isset($errors)) {
+    <h5>
+        <?php if (isset($errors)) {
                     foreach ($errors as $val) {
                         echo $val . "<br>";
                     }
-                } ?></h5>
+                } ?>
+    </h5>
 </div>
 <form method="POST" action="">
     <div class="form-group">
@@ -30,7 +32,7 @@
         <input type="password" class="form-control" id="exampleInputPassword1" name="password">
     </div>
     <div class="reg-btn-align">
-        <button type="submit" class="btn btn-primary reg-btn">Войти</button>
+        <button type="submit" class="btn btn-primary reg-btn">зарегистрироваться</button>
     </div>
 </form>
 <?php

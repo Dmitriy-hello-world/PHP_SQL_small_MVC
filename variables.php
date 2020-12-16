@@ -12,7 +12,7 @@ if (date('Y') == YEARSSTART) {
 }
 
 //modules in my site
-$modules = array("main", "wars", "program", "registration", "errors", "adminPanel", "cab", "comments");
+$modules = array("main", "wars", "program", "registration", "errors", "adminPanel", "cab", "comments", "todo");
 
 //module = main or go to 404
 if (!isset($_GET['module'])) {

@@ -202,3 +202,73 @@ footer {
     color: red;
     text-decoration: none;
 }
+.not-complete {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+.complete {
+    font-weight: bold;
+    color: green;
+    text-align: center;
+}
+.text-align {
+    text-align: center;
+}
+.table {
+    margin-bottom: 425px;
+}
+#red {
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: rgb(187, 47, 47);
+    border-color: rgb(187, 47, 47);
+}
+#red:hover {
+    background-color: red;
+    border-color: red;
+}
+#blue {
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: rgb(142, 142, 142);
+    border-color: rgb(142, 142, 142);
+}
+#blue:hover {
+    background-color: rgb(18, 91, 181);
+    border-color: rgb(18, 91, 181);
+}
+.text-weight {
+    font-weight: 600;
+    font-style: italic;
+}
+#add-goal-btn {
+    padding: 4px 4px;
+}
+.select-color {
+    font-weight: 600;
+    color: rgb(47, 51, 69);
+}
+#area-width {
+    width: 100%;
+    margin: 0;
+}
+#vertical-align {
+    vertical-align: middle;
+}
+.todo-header {
+    margin: 10px 0 20px 0;
+    text-align: center;
+    color: rgb(18, 91, 181);
+    font-weight: 600;
+}
+.corect-width {
+    width: 350px;
+    word-wrap: break-word;
+} 
+.correct {
+    word-wrap: break-word;
+    width: 580px;
+}
